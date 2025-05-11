@@ -1,0 +1,87 @@
+.admin-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.admin-content {
+  padding-left: 20px;
+}
+
+.admin-header {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36.35px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #0a512f;
+}
+
+.info-cards-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.info-card {
+  width: 272;
+  height: 100;
+  top: 185.5px;
+  left: 249px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.info-card-icon-container {
+  width: 84px;
+  height: 100px;
+  top: 186.5px;
+  left: 250px;
+  background: #0a512f;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-card-icon {
+  width: 50.65789794921875px;
+  height: 35.068359375px;
+  top: 216.92px;
+  left: 267.25px;
+}
+
+.info-card-value {
+  margin-top: 10px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.info-card-text-container {
+  width: 272px;
+  height: 100px;
+  top: 185.5px;
+  left: 249px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.info-card-text {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
